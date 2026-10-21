@@ -1,0 +1,28 @@
+{
+  "title": "Why Unconstrained ASI Is an Engineering Myth",
+  "slug": "asi-fallacy",
+  "description": "Analyzing why recursive self-improvement hits hard thermodynamic and verification ceilings before runaway intelligence.",
+  "date": "2026-10-02",
+  "section": "Research",
+  "tags": [
+    "Research",
+    "Thermodynamics",
+    "Compute",
+    "AI Safety"
+  ],
+  "tag_color": "#F59E0B",
+  "reading_time": 3,
+  "featured": false,
+  "banner": "banner.png",
+  "writers": [
+    {
+      "name": "fy2ne",
+      "github": "fy2ne",
+      "role": "AI Engineer & Low-Level Systems Developer",
+      "location": "Global / Edge",
+      "timezone": "UTC",
+      "email": "hello@fy2ne.me",
+      "avatar": "https://github.com/fy2ne.png"
+    }
+  ]
+}

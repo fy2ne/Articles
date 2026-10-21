@@ -1,0 +1,28 @@
+{
+  "title": "Beyond Scripts: How the Model Context Protocol (MCP) is Ushering in the Era of Agentic Browser Automation",
+  "slug": "beyond-scripts-mcp-agentic-browser-1dc3ed147c48",
+  "description": "Moving web automation from brittle deterministic scripting to agentic semantic reasoning with MCP servers and dynamic browser perception.",
+  "date": "2026-07-19",
+  "section": "Research",
+  "tags": [
+    "Research",
+    "Project",
+    "MCP",
+    "Browser Automation"
+  ],
+  "tag_color": "#3B82F6",
+  "reading_time": 4,
+  "featured": false,
+  "banner": "banner.png",
+  "writers": [
+    {
+      "name": "fy2ne",
+      "github": "fy2ne",
+      "role": "AI Engineer & Low-Level Systems Developer",
+      "location": "Global / Edge",
+      "timezone": "UTC",
+      "email": "hello@fy2ne.me",
+      "avatar": "https://github.com/fy2ne.png"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "VACT Protocol: Vector Agent Context Transport & Real-Time State Synchronization",
+  "slug": "vact-protocol",
+  "description": "A high-performance transport specification for low-latency context streaming, vector-compressed memory handoffs, and deterministic state synchronization across autonomous multi-agent topologies.",
+  "date": "2026-10-06",
+  "section": "Systems",
+  "tags": [
+    "Systems",
+    "Protocol",
+    "Research",
+    "Multi-Agent"
+  ],
+  "tag_color": "#06B6D4",
+  "reading_time": 4,
+  "featured": true,
+  "banner": "banner.png",
+  "writers": [
+    {
+      "name": "fy2ne",
+      "github": "fy2ne",
+      "role": "AI Engineer & Low-Level Systems Developer",
+      "location": "Global / Edge",
+      "timezone": "UTC",
+      "email": "hello@fy2ne.me",
+      "avatar": "https://github.com/fy2ne.png"
+    }
+  ]
+}
