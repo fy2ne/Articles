@@ -35,7 +35,7 @@ The challenge hasn’t been the reasoning — it’s been the interface. How do 
 
 Instead of writing scripts, I've been building **MCP Servers** that expose granular, highly-optimized browser capabilities as tools to the LLM. Rather than writing an ad-hoc Python script to scrape a page, I provide the agent with a standardized protocol to interact with the environment itself.
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     subgraph Agent ["Agent Core"]
         LLM["LLM Reasoning Engine"]
@@ -63,7 +63,7 @@ flowchart TD
     Action --> CDP
     State <--> Net
     CDP <--> DOM
-\`\`\`
+```
 
 When developing this kind of browser automation ecosystem, the architecture shifts to providing the agent with three core primitives:
 
@@ -79,15 +79,15 @@ By abstracting these capabilities behind an MCP interface, the agent can operate
 
 You cannot feed a raw 50,000-node DOM into an LLM. Doing so destroys the token budget and degrades needle-in-a-haystack attention retrieval:
 
-$$\\text{Complexity}(D) = \\mathcal{O}(|V| + |E|) \\gg \\mathcal{T}_{\\text{context}}$$
+$$\text{Complexity}(D) = \mathcal{O}(|V| + |E|) \gg \mathcal{T}_{\text{context}}$$
 
-Instead, we define a projection operator $\\pi_s$ that maps the full DOM tree $T$ to a semantic accessibility manifold $M_s$:
+Instead, we define a projection operator $\pi_s$ that maps the full DOM tree $T$ to a semantic accessibility manifold $M_s$:
 
-$$\\pi_s: T \\to M_s \\quad \\text{where} \\quad \\forall u \\in M_s, \\; \\text{Interactive}(u) \\lor \\text{Role}(u) \\in \\mathcal{R}_{\\text{target}}$$
+$$\pi_s: T \to M_s \quad \text{where} \quad \forall u \in M_s, \; \text{Interactive}(u) \lor \text{Role}(u) \in \mathcal{R}_{\text{target}}$$
 
 This token reduction function achieves an empirical compression ratio:
 
-$$\\rho = 1 - \\frac{|\\text{Tokens}(M_s)|}{|\\text{Tokens}(T)|} > 0.94$$
+$$\rho = 1 - \frac{|\text{Tokens}(M_s)|}{|\text{Tokens}(T)|} > 0.94$$
 
 ---
 
