@@ -33,22 +33,22 @@ Instead of copying pixels across processes:
 2. VACT hands the perception model a memory pointer and synchronization atomic counter.
 3. The perception model processes the frame in place, writing dense embeddings into the vector context ring.
 
-## Perception Vector Manifold Simulation
+## Perception Buffer Dither Simulation
 
-Move your cursor or click across the simulation canvas below to test real-time tensor field perturbations through the VACT shared memory pipeline:
+Move your cursor or click across the simulation canvas below to inspect the GPU-accelerated dither veil transformation over the VACT frame buffer in real time:
 
 ```reactbit
 {
-  "component": "FluxLines",
-  "height": 340,
-  "caption": "Figure 1.0 — Real-Time High-Frequency Perception Vector Flow within VACT GPU Shared Buffer (Interactive WebGL Simulation).",
-  "speed": 0.45,
-  "scale": 1.5,
-  "turbulence": 0.8,
-  "fluidity": 0.15,
-  "glow": 2.0,
-  "lineWidth": 1.2,
-  "flowDirection": "down"
+  "component": "DitherVeil",
+  "src": "https://raw.githubusercontent.com/fy2ne/Articles/main/vact-protocol/banner.png",
+  "height": 380,
+  "caption": "Figure 1.0 — Real-time Bayer Dither Transformation over Captured VACT Buffer Stream (Interactive WebGL DitherVeil).",
+  "pattern": "bayer",
+  "pixelSize": 3,
+  "levels": 4,
+  "contrast": 1.3,
+  "revealRadius": 0.35,
+  "clickBurst": true
 }
 ```
 
