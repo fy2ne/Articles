@@ -40,15 +40,16 @@ Move your cursor or click across the simulation canvas below to inspect the GPU-
 ```reactbit
 {
   "component": "DitherVeil",
-  "src": "https://raw.githubusercontent.com/fy2ne/Articles/main/vact-protocol/banner.png",
-  "height": 380,
-  "caption": "Figure 1.0 — Real-time Bayer Dither Transformation over Captured VACT Buffer Stream (Interactive WebGL DitherVeil).",
-  "pattern": "bayer",
-  "pixelSize": 3,
-  "levels": 4,
-  "contrast": 1.3,
-  "revealRadius": 0.35,
-  "clickBurst": true
+  "height": 420,
+  "fit": "contain",
+  "pattern": "floyd",
+  "pixelSize": 2,
+  "levels": 2,
+  "contrast": 1.15,
+  "revealRadius": 200,
+  "clickBurst": true,
+  "transparent": true,
+  "caption": "Figure 1.0 — 3D Neural Perception Manifold & Dither Matrix Stream (Interactive WebGL DitherVeil)."
 }
 ```
 
