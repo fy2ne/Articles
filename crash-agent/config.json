@@ -1,0 +1,22 @@
+{
+  "title": "Crash-Agent: In-Engine Bytecode Symbol Analysis for Fabric & Forge Conflicts",
+  "description": "Diagnosing native crash dumps and obfuscated stack traces directly inside the game loop before JVM exit. How Crash-Agent hooks native signals and runs TinyRemapper in-process against runtime class definitions.",
+  "section": "Post-Mortem",
+  "date": "2026-07-14",
+  "reading_time": 6,
+  "tags": [
+    "Crash Analysis",
+    "JVM Stack Traces",
+    "TinyRemapper",
+    "Forge/Fabric",
+    "Debugging"
+  ],
+  "writers": [
+    {
+      "name": "fy2ne",
+      "github": "fy2ne",
+      "email": "hello@fy2ne.me",
+      "role": "Core Systems Developer"
+    }
+  ]
+}

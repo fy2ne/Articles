@@ -1,0 +1,22 @@
+{
+  "title": "qtn-overseer: Mitigating Ghost Deletions & Architectural Drift in AI Agent Swarms",
+  "description": "The 3:00 AM incident where an autonomous agent swarm refactored a backend by silently deleting an error handling boundary and creating a ghost regression. Designing qtn-overseer: Tree-sitter AST hashing and invariant verification gates.",
+  "section": "Research",
+  "date": "2026-08-30",
+  "reading_time": 7,
+  "tags": [
+    "Agent Auditing",
+    "AST Invariants",
+    "Codebase Drift",
+    "Git Guardrails",
+    "Security"
+  ],
+  "writers": [
+    {
+      "name": "fy2ne",
+      "github": "fy2ne",
+      "email": "hello@fy2ne.me",
+      "role": "Security & Systems Architect"
+    }
+  ]
+}

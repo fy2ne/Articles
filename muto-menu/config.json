@@ -1,0 +1,22 @@
+{
+  "title": "Muto Menu: Decoupling Reactive In-Engine GUIs from the Minecraft Render Pipeline",
+  "description": "How traditional Minecraft GUI screens generate megabytes of garbage collection churn every second, triggering frame hitches. The engineering behind Muto Menu: building a zero-GC retained-mode layout engine that batches vertex buffers directly to the GPU.",
+  "section": "Engineering",
+  "date": "2026-10-18",
+  "reading_time": 6,
+  "tags": [
+    "Render Pipeline",
+    "LWJGL",
+    "Reactive UI",
+    "Zero-GC",
+    "Fabric"
+  ],
+  "writers": [
+    {
+      "name": "fy2ne",
+      "github": "fy2ne",
+      "email": "hello@fy2ne.me",
+      "role": "Core Systems & UI Architect"
+    }
+  ]
+}

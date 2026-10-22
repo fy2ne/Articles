@@ -1,0 +1,22 @@
+{
+  "title": "Weavetab: Why Standard CDP Scripting Fails Autonomous Browser Agents",
+  "description": "The hidden trap of Puppeteer and Playwright when driven by LLMs. Replacing blind DOM polling with manifold burst execution and session-aware tab state reconciliation.",
+  "section": "Systems",
+  "date": "2026-09-24",
+  "reading_time": 8,
+  "tags": [
+    "Browser Automation",
+    "CDP",
+    "AI Agents",
+    "State Reification",
+    "DOM Manifold"
+  ],
+  "writers": [
+    {
+      "name": "fy2ne",
+      "github": "fy2ne",
+      "email": "hello@fy2ne.me",
+      "role": "Core Systems Developer"
+    }
+  ]
+}
