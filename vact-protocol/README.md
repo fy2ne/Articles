@@ -33,6 +33,25 @@ Instead of copying pixels across processes:
 2. VACT hands the perception model a memory pointer and synchronization atomic counter.
 3. The perception model processes the frame in place, writing dense embeddings into the vector context ring.
 
+## Perception Vector Manifold Simulation
+
+Move your cursor or click across the simulation canvas below to test real-time tensor field perturbations through the VACT shared memory pipeline:
+
+```reactbit
+{
+  "component": "FluxLines",
+  "height": 340,
+  "caption": "Figure 1.0 — Real-Time High-Frequency Perception Vector Flow within VACT GPU Shared Buffer (Interactive WebGL Simulation).",
+  "speed": 0.45,
+  "scale": 1.5,
+  "turbulence": 0.8,
+  "fluidity": 0.15,
+  "glow": 2.0,
+  "lineWidth": 1.2,
+  "flowDirection": "down"
+}
+```
+
 ## Latency & Bandwidth Benchmark
 
 We benchmarked end-to-end transport latency across 1440p 60Hz display capture pipelines:
