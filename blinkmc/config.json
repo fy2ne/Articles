@@ -1,0 +1,24 @@
+{
+  "title": "BlinkMC Complete Technical Architecture & Bypass Engine",
+  "description": "A structural blueprint of the BlinkMC Minecraft bot fleet engine, detailing its zero-leak network firewall, proxy verification pipeline, custom protocol framing, gateway bypass armor, and anti-bot probe subsystem.",
+  "section": "Architecture",
+  "date": "2026-10-24",
+  "reading_time": 4,
+  "featured": true,
+  "custom_type": "schema",
+  "tags": [
+    "Architecture",
+    "Network Security",
+    "Minecraft Protocol",
+    "Bypass Armor",
+    "Proxy Pipeline"
+  ],
+  "writers": [
+    {
+      "name": "fy2ne",
+      "github": "fy2ne",
+      "email": "hello@fy2ne.me",
+      "role": "Systems Architect & Core Engineer"
+    }
+  ]
+}
