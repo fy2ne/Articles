@@ -155,4 +155,5 @@ flowchart TD
   class S1,H1,H2,H3,H4,H5,H7,H8,H9,H10,H11 hold
   class PR1,PR2,PR3,PR5,PR6,PR7,PR8,PR9,PR10,PR11 probe
   class K4,P6,M7,A1,G2,DP1,H6,PR4 decision
+  class SOCKS_CONN kernel
 ```
